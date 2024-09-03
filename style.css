@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background-color: #F3E5D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: YoungSerif-Regular;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit-Light;
+    src: url(assets/fonts/outfit/static/Outfit-Light.ttf)
+}
+
+#card {
+    width: 736px;
+    height: 1708px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin: 80px auto;
+}
+
+.top-image {
+    width: 656px;
+    height: 300px;
+    border-radius: 12px;
+    background: url(assets/images/image-omelette.jpeg);
+    background-size: contain;
+    margin: 40px;
+}
+
+.text-content {
+    margin: 40px;
+}
+
+.title h1 {
+    font-family: YoungSerif-Regular;
+    font-weight: 300;
+    color: #312E2C;
+}
+
+.title p {
+    font-family: Outfit-Light;
+    font-weight: normal;
+    margin-top: 24px;
+    color: #5F564D;
+}
+
+.preparation {
+    width: 656px;
+    height: 180px;
+    border-radius: 12px;
+    background-color: #FFF7FB;
+    margin-top: 32px;
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.preparation h3 {
+    font-family: Outfit-Light;
+    font-weight: bold;
+    color: #7A284E;
+}
+
+.preparation li {
+    font-family: Outfit-Light;
+    color: #5F564D;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.preparation li::marker {
+    color: #7A284E;
+}
+
+.preparation li>span {
+    font-weight: bold;
+}
+
+.ingredients {
+    width: 656px;
+    height: 204px;
+    margin-top: 32px;
+}
+
+.ingredients h2 {
+    font-family: YoungSerif-Regular;
+    color: #7A284E;
+}
+
+.ingredients li {
+    font-family: Outfit-Light;
+    color: #5F564D;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.ingredients li::marker {
+    color: #7A284E;
+}
+
+.instructions {
+    width: 656px;
+    height: 332px;
+    margin-top: 32px;
+}
+
+.instructions h2 {
+    font-family: YoungSerif-Regular;
+    color: #7A284E;
+}
+
+.instructions li {
+    font-family: Outfit-Light;
+    color: #5F564D;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.instructions li::marker {
+    font-weight: bold;
+    color: #7A284E;
+}
+
+.instructions li>span {
+    font-weight: bold;
+}
+
+.nutrition h2 {
+    font-family: YoungSerif-Regular;
+    color: #7A284E;
+}
+
+.nutrition table {
+    width: 656px;
+    height: 268px;
+    margin-top: 32px;
+}
+
+.nutrition caption {
+    font-family: Outfit-Light;
+    color: #5F564D;
+    text-align: left;
+}
+
+.nutrition td th {
+    border: 1px solid #5F564D;
+    height: 30px;
+}
+
+.nutrition td {
+    font-family: Outfit-Light;
+    color: #5F564D;
+}
+
+.nutrition th {
+    font-family: Outfit-Light;
+    color: #7A284E;
+    text-align: left;
+}
+
+
+
